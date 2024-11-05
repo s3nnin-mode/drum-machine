@@ -38,7 +38,7 @@ class Boton extends React.Component {
     const contenedorElemento = audioElemento.closest('div');
     contenedorElemento.classList.add('color-efecto');
      setTimeout(() => {
-       contenedorElemento.classList.remove('color-efecto')
+      contenedorElemento.classList.remove('color-efecto')
      }, 110)
   }
 
@@ -53,7 +53,6 @@ class Boton extends React.Component {
   reproducir(id) {
     const audioElement = document.getElementById(id);
     const playPromise = audioElement.play();
-    console.log(audioElement)
 
     if (playPromise !== undefined) {
       audioElement.currentTime = 0;
