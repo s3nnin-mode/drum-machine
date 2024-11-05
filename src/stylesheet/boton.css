@@ -1,0 +1,14 @@
+.drum-pad {
+    text-align: center;
+    align-content: center;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 3px;
+    cursor: pointer;
+
+    box-shadow: 0px 1px 2px;
+}
+
+.color-efecto {
+    background-color: red;
+}
